@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("--- Benvenuto ---");
-            Console.WriteLine("-- scegli cosa vedere:\n - (1) : esercizio principale\n - (2) : esercizio extra bonus ");
+            Console.WriteLine("-- scegli cosa vedere:\n - (1) : esercizio principale\n - (2) : esercizi extra bonus ");
             int optionSelection = Convert.ToInt32(Console.ReadLine());
 
 
@@ -23,8 +23,9 @@
 
                         for (int j = 0; j < arraylenght; j++)
                         {
-                            Console.WriteLine($"inserisci dato della {j} cella:");
-                            arrayTest[j] = Convert.ToInt32(Console.ReadLine()); ;
+                            Console.WriteLine($"inserisci dato della {j + 1} cella:");
+                            arrayTest[j] = Convert.ToInt32(Console.ReadLine());
+
 
                         }
 
